@@ -26,3 +26,9 @@ Input: grid = [
 Output: 3
 
 Solution
+
+I have used Reccursion to solve this problem.
+
+1. For each land("1") in the grid check if it has an adjacent land.
+2. Repeat step-1 until you find water.
+3. If all adjacent lands are visited increment island count by 1.
